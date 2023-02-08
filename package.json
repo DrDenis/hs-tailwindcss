@@ -1,0 +1,59 @@
+{
+  "name": "hs-tailwind",
+  "version": "1.0.0",
+  "description": "hs tailwind theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "boilerplate": "hs create website-theme src",
+    "start": "webpack --watch --mode development --env autoupload"
+  },
+  "author": "Denis",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.14.8",
+    "@hubspot/webpack-cms-plugins": "^3.0.6",
+    "@spingroup/postcss-hubl": "^1.1.4",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.1.0",
+    "cssnano": "^5.0.7",
+    "glob": "^7.1.7",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss": "^8.3.5",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-advanced-variables": "^3.0.1",
+    "postcss-atroot": "^0.1.3",
+    "postcss-extend-rule": "^2.0.0",
+    "postcss-nested": "^4.2.3",
+    "postcss-property-lookup": "^2.0.0",
+    "style-loader": "^3.1.0",
+    "tailwindcss": "^2.2.4",
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-entry-plus": "^1.0.19",
+    "wrapper-webpack-plugin": "^2.1.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 5%",
+    "IE 11",
+    "IE 10"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrDenis/hs-tailwind.git"
+  },
+  "keywords": [
+    "hs",
+    "tailwind"
+  ],
+  "bugs": {
+    "url": "https://github.com/DrDenis/hs-tailwind/issues"
+  },
+  "homepage": "https://github.com/DrDenis/hs-tailwind#readme"
+}
