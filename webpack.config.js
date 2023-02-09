@@ -62,7 +62,7 @@ module.exports = ({ account, autoupload }) => ({
       account,
       autoupload,
       src: 'dist',
-      dest: 'HS Tailwind Theme',
+      dest: 'stoica-tailwind',
     }),
     new MiniCssExtractPlugin({
       filename: ({ chunk }) => {
